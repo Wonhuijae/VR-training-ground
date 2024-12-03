@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Bullet
   - ClickBlock
-  - Climb
+  - Climbable
   layers:
   - Default
   - TransparentFX

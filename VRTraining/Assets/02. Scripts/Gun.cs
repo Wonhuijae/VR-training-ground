@@ -15,7 +15,6 @@ public class Gun : MonoBehaviour
 
     public void Fire()
     {
-        Debug.Log("Fire");
         Instantiate(shotEffect, muzzle.position, muzzle.rotation);
 
         RaycastHit hit;
