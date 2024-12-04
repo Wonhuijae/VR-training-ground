@@ -40,7 +40,13 @@ public class Gun : MonoBehaviour
         {
             int idx = Random.Range(0, bulletCount);
             var hole = Instantiate(bulletHoles[idx], hit.point, hit.transform.rotation);
-            hole.transform.position += new Vector3(0, 0, 0.01f);
+            hole.transform.position += new Vector3(0, 0, 0.001f);
+
+            TargetAreaCollision hitObj = hit.collider.gameObject.GetComponent<TargetAreaCollision>();
+            if(hitObj != null)
+            {
+                hitObj.AddScore(hit.point);
+            }
 
             Destroy(hole, 3f);
         }
