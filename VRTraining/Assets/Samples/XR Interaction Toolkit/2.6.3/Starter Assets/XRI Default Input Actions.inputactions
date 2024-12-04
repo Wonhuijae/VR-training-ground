@@ -961,7 +961,7 @@
                 {
                     "name": "",
                     "id": "92bfc98a-e98b-4275-8ede-57ed805625e2",
-                    "path": "<XRController>{LeftHand}/deviceVelocity",
+                    "path": "<OculusTouchController>/deviceVelocity",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -1777,7 +1777,7 @@
                 {
                     "name": "",
                     "id": "54f6e7e0-f5c0-4b14-9450-87bfcf8db43d",
-                    "path": "<XRController>{RightHand}/deviceVelocity",
+                    "path": "<OculusTouchController>{RightHand}/deviceVelocity",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
