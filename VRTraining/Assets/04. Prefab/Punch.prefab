@@ -50,6 +50,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af21997abadceb2419af266c41347708, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftAction: {fileID: -7025512781650456965, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rightAction: {fileID: 6163287385745898471, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   power: 30
   hitClip:
   - {fileID: 8300000, guid: 37c752316ecbf764eb6c4a9c4d7d9835, type: 3}
@@ -155,14 +157,14 @@ ConfigurableJoint:
   m_AngularZMotion: 2
   m_LinearLimitSpring:
     spring: 0
-    damper: 0
+    damper: 2.5
   m_LinearLimit:
     limit: 0
     bounciness: 0
     contactDistance: 0
   m_AngularXLimitSpring:
     spring: 0
-    damper: 0
+    damper: 2.5
   m_LowAngularXLimit:
     limit: 0
     bounciness: 0
@@ -187,13 +189,13 @@ ConfigurableJoint:
   m_XDrive:
     serializedVersion: 4
     positionSpring: 0
-    positionDamper: 0
+    positionDamper: 2.5
     maximumForce: 3.4028233e+38
     useAcceleration: 0
   m_YDrive:
     serializedVersion: 4
     positionSpring: 0
-    positionDamper: 0
+    positionDamper: 2.5
     maximumForce: 3.4028233e+38
     useAcceleration: 0
   m_ZDrive:
@@ -208,19 +210,19 @@ ConfigurableJoint:
   m_AngularXDrive:
     serializedVersion: 4
     positionSpring: 0
-    positionDamper: 0
+    positionDamper: 2.5
     maximumForce: 3.4028233e+38
     useAcceleration: 0
   m_AngularYZDrive:
     serializedVersion: 4
     positionSpring: 0
-    positionDamper: 0
+    positionDamper: 2.5
     maximumForce: 3.4028233e+38
     useAcceleration: 0
   m_SlerpDrive:
     serializedVersion: 4
     positionSpring: 0
-    positionDamper: 0
+    positionDamper: 2.5
     maximumForce: 3.4028233e+38
     useAcceleration: 0
   m_ProjectionMode: 0

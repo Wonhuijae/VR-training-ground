@@ -12,7 +12,7 @@ public class PunchSandbag : MonoBehaviour
     InputActionReference rightAction;
 
     // 기본 힘
-    public int power = 10;
+    public int power = 1;
 
     // 피격음
     public AudioClip[] hitClip;

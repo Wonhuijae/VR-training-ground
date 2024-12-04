@@ -4562,42 +4562,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 468385681}
     m_Modifications:
-    - target: {fileID: 310555522754442504, guid: e5c3c57b068007946827776146dcff88, type: 3}
-      propertyPath: m_LinearLimitSpring.damper
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 310555522754442504, guid: e5c3c57b068007946827776146dcff88, type: 3}
-      propertyPath: m_LinearLimitSpring.spring
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 310555522754442504, guid: e5c3c57b068007946827776146dcff88, type: 3}
-      propertyPath: m_AngularXLimitSpring.damper
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 310555522754442504, guid: e5c3c57b068007946827776146dcff88, type: 3}
-      propertyPath: m_AngularXLimitSpring.spring
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 310555522754442504, guid: e5c3c57b068007946827776146dcff88, type: 3}
-      propertyPath: m_AngularYZLimitSpring.damper
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 310555522754442504, guid: e5c3c57b068007946827776146dcff88, type: 3}
-      propertyPath: m_AngularYZLimitSpring.spring
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1713332135222970085, guid: e5c3c57b068007946827776146dcff88, type: 3}
-      propertyPath: action
-      value: 
-      objectReference: {fileID: -7025512781650456965, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 1713332135222970085, guid: e5c3c57b068007946827776146dcff88, type: 3}
-      propertyPath: leftAction
-      value: 
-      objectReference: {fileID: -7025512781650456965, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 1713332135222970085, guid: e5c3c57b068007946827776146dcff88, type: 3}
-      propertyPath: rightAction
-      value: 
-      objectReference: {fileID: 6163287385745898471, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     - target: {fileID: 5262320797874169342, guid: e5c3c57b068007946827776146dcff88, type: 3}
       propertyPath: m_Name
       value: Punch
