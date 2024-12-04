@@ -6,7 +6,9 @@ using UnityEngine.XR;
 public class Hands : MonoBehaviour
 {
     public InputDeviceCharacteristics deviceCharacteristics;
+    // 컨트롤러 모델
     public List<GameObject> prefabController;
+    // 손 모델
     public GameObject prefabHand;
     
     InputDevice Device;
@@ -14,7 +16,6 @@ public class Hands : MonoBehaviour
     GameObject HandModel;
     Animator Animator;
 
-    // Start is called before the first frame update
     void Start()
     {
         Init();
