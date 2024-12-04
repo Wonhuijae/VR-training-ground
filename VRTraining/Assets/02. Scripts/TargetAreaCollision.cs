@@ -1,9 +1,9 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-// »ç°İ Á¡¼ö °è»ê ½ºÅ©¸³Æ®
+// ì‚¬ê²© ì ìˆ˜ ê³„ì‚° ìŠ¤í¬ë¦½íŠ¸
 public class TargetAreaCollision : MonoBehaviour
 {
     [SerializeField]

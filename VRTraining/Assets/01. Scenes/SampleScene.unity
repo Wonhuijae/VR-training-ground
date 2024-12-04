@@ -369,7 +369,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82451046}
   m_LocalRotation: {x: -0, y: 0.7350564, z: -0, w: 0.67800605}
-  m_LocalPosition: {x: 0, y: 0, z: 5.1210003}
+  m_LocalPosition: {x: 0, y: 0, z: 4.157}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -378,7 +378,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 94.624, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.813999, y: -0.079}
+  m_AnchoredPosition: {x: 8.285, y: 0.732}
   m_SizeDelta: {x: 1, y: 0.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &82451052
@@ -1214,7 +1214,6 @@ Transform:
   - {fileID: 1541299901}
   - {fileID: 1549568392}
   - {fileID: 113634057}
-  - {fileID: 810864107}
   - {fileID: 5218438503950912873}
   - {fileID: 86927161}
   m_Father: {fileID: 0}
@@ -1882,7 +1881,7 @@ GameObject:
   - component: {fileID: 810864107}
   - component: {fileID: 810864106}
   - component: {fileID: 810864105}
-  - component: {fileID: 810864104}
+  - component: {fileID: 810864108}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1890,27 +1889,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &810864104
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810864103}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &810864105
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1970,12 +1948,33 @@ Transform:
   m_GameObject: {fileID: 810864103}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.458, y: 0.5, z: 4.6370006}
+  m_LocalPosition: {x: 2.2450001, y: 0.5, z: 4.1890006}
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 468385681}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &810864108
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810864103}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &963730307
 GameObject:
   m_ObjectHideFlags: 0
@@ -3384,7 +3383,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 205f38c8ca6458843ae7c41f7e35dd6e, type: 3}
 --- !u!4 &1549568392 stripped
@@ -3605,7 +3604,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751439616}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
   m_Name: 
@@ -4201,15 +4200,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1786759125029253417, guid: 24293e33d3322f84bb98b6c032ce2dc9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.485
+      value: 2.272
       objectReference: {fileID: 0}
     - target: {fileID: 1786759125029253417, guid: 24293e33d3322f84bb98b6c032ce2dc9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.019
+      value: 1.033
       objectReference: {fileID: 0}
     - target: {fileID: 1786759125029253417, guid: 24293e33d3322f84bb98b6c032ce2dc9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.633
+      value: 4.185
       objectReference: {fileID: 0}
     - target: {fileID: 1786759125029253417, guid: 24293e33d3322f84bb98b6c032ce2dc9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4651,3 +4650,4 @@ SceneRoots:
   - {fileID: 1751439620}
   - {fileID: 1636985925}
   - {fileID: 537469512}
+  - {fileID: 810864107}

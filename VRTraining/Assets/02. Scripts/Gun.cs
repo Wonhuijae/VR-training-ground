@@ -20,7 +20,7 @@ public class Gun : MonoBehaviour
 
     AudioSource audioSource;
 
-    private void Awake()
+    private void Start()
     {
         audioSource = GetComponent<AudioSource>();
         bulletCount = bulletHoles.Length;
@@ -42,6 +42,7 @@ public class Gun : MonoBehaviour
             var hole = Instantiate(bulletHoles[idx], hit.point, hit.transform.rotation);
             hole.transform.position += new Vector3(0, 0, 0.001f);
 
+            // 충돌 거리 판정하여 점수 계산
             TargetAreaCollision hitObj = hit.collider.gameObject.GetComponent<TargetAreaCollision>();
             if(hitObj != null)
             {
