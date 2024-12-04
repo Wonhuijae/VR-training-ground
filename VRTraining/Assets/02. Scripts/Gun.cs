@@ -6,6 +6,8 @@ public class Gun : MonoBehaviour
 {
     [SerializeField]
     Transform muzzle;
+    [SerializeField]
+    AudioClip fireClip;
 
     // 피격 위치 효과
     [SerializeField]
@@ -14,10 +16,13 @@ public class Gun : MonoBehaviour
     public float maxDistance = 10f;
     // 총알 발사 효과
     public ParticleSystem shotEffect;
-
     int bulletCount = 0;
+
+    AudioSource audioSource;
+
     private void Awake()
     {
+        audioSource = GetComponent<AudioSource>();
         bulletCount = bulletHoles.Length;
     }
 
@@ -25,7 +30,9 @@ public class Gun : MonoBehaviour
     public void Fire()
     {
         shotEffect.Play();
+        audioSource.PlayOneShot(fireClip);
 
+        // Raycast로 충돌 판정
         RaycastHit hit;
         Physics.Raycast(muzzle.transform.position, muzzle.transform.forward, out hit, maxDistance);
 
