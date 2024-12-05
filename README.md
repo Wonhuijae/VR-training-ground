@@ -1,5 +1,7 @@
 Github: https://github.com/Wonhuijae/VR-training-ground
 
+https://youtube.com/shorts/3vdlZBx9PgU?feature=share
+
 기능
 - 사격: XR Grab Interactable 이용하여 줍기 및 떨어뜨리기, 발사, 센터와의 거리 계산하여 점수 Count
 - 펀치: Configurable Joint 이용하여 진동 구현. InputAction(Oculus Touch Controller/deviceVelocity) 이용하여 샌드백과 충돌한 시점의 기기 속도 반영하여 타격감 변화
